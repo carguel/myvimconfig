@@ -16,3 +16,18 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/The-NERD-tree"]
+	path = bundle/The-NERD-tree
+	url = https://github.com/vim-scripts/The-NERD-tree.git
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = https://github.com/msanders/snipmate.vim.git
+[submodule "snippets/snipmate-ruby-snippets"]
+	path = snippets/snipmate-ruby-snippets
+	url = https://github.com/Gonzih/vim-snipmate-ruby-snippets.git
+[submodule "bundle/molokai"]
+	path = bundle/molokai
+	url = https://github.com/mrtazz/molokai.vim.git
+[submodule "bundle/solarized"]
+	path = bundle/solarized
+	url = https://github.com/altercation/vim-colors-solarized.git

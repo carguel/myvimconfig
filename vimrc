@@ -10,7 +10,8 @@ set shiftwidth=4
 syntax on
 filetype plugin indent on
 
-colorscheme ir_black
+" colorscheme ir_black
+colorscheme solarized
 
 " Switch between buffers
 noremap <tab> :bn<CR>
@@ -33,4 +34,10 @@ nnoremap <leader><leader> <C-^>
 
 highlight Pmenu ctermbg=238 gui=bold
 set term=xterm-256color
+
+" Set supertab default completion to context
+let g:SuperTabDefaultCompletionType = "context"
+
+" add specific ruby snippets for ruby
+let g:snippets_dir = $HOME . "/.vim/bundle/snipmate/snippets," . $HOME . "/.vim/snippets/snipmate-ruby-snippets/snippets/"
 
