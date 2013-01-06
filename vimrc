@@ -41,3 +41,4 @@ let g:SuperTabDefaultCompletionType = "context"
 " add specific ruby snippets for ruby
 let g:snippets_dir = $HOME . "/.vim/bundle/snipmate/snippets," . $HOME . "/.vim/snippets/snipmate-ruby-snippets/snippets/"
 
+runtime macros/matchit.vim
