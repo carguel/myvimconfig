@@ -6,6 +6,9 @@ set expandtab
 set sts=4
 set shiftwidth=4
 
+" Ruby standard path
+set path+=lib/
+set path+=spec/
 
 syntax on
 filetype plugin indent on
