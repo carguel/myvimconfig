@@ -2,6 +2,11 @@ call pathogen#infect()
 
 set nocompatible
 
+set number
+
+set wildmenu
+set wildmode=longest,full
+
 set expandtab
 set sts=4
 set shiftwidth=4
