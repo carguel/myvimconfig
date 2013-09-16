@@ -2,10 +2,18 @@ call pathogen#infect()
 
 set nocompatible
 
+set number
+
+set wildmenu
+set wildmode=longest,full
+
 set expandtab
 set sts=4
 set shiftwidth=4
 
+" Ruby standard path
+set path+=lib/
+set path+=spec/
 
 syntax on
 filetype plugin indent on
@@ -41,3 +49,4 @@ let g:SuperTabDefaultCompletionType = "context"
 " add specific ruby snippets for ruby
 let g:snippets_dir = $HOME . "/.vim/bundle/snipmate/snippets," . $HOME . "/.vim/snippets/snipmate-ruby-snippets/snippets/"
 
+runtime macros/matchit.vim
