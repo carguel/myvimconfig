@@ -7,7 +7,7 @@ This my vim config, including a set of VIM plugins managed by [pathogen](https:/
 Type the following commands
 
     cd ~
-    git clone http://github.com/username/dotvim.git ~/.vim
+    git clone https://github.com/carguel/myvimconfig.git ~/.vim
     ln -s ~/.vim/vimrc ~/.vimrc
     ln -s ~/.vim/gvimrc ~/.gvimrc
     cd ~/.vim
